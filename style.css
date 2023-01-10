@@ -1,0 +1,29 @@
+body {
+    font: 15pt normal Arial;
+    background-color: cadetblue;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    width: 500px;
+}
+
+input {
+    margin-top: 15px;
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
