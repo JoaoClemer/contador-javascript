@@ -14,10 +14,6 @@ function contar() {
         var f = Number(fim.value)
         var p = Number(passo.value)
         res.innerHTML = "Contando: <br>"
-        if (p <= 0) {
-            window.alert('Passo inválido! Passo considerado = 1')
-            p = 1
-        }
         if (i < f) {
             for (var c = i; c <= f; c += p) {
                 res.innerHTML += `${c} `
@@ -31,6 +27,7 @@ function contar() {
         var i = Number(inicio.value)
         var f = Number(fim.value)
         var p = Number(passo.value)
+        res.innerHTML = "Contando: <br>"
 
         p = 1
         for (var c = i; c <= f; c += p) {
